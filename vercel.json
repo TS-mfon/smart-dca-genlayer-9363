@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/heartbeat",
+      "dest": "api/heartbeat.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend/$1"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/heartbeat",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
