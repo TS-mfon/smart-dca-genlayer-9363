@@ -1,0 +1,23 @@
+{
+  "name": "smart-dca-root",
+  "version": "1.0.0",
+  "description": "Smart DCA Backend & Frontend Orchestration",
+  "main": "api/heartbeat.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node orchestrator/src/heartbeat.ts"
+  },
+  "dependencies": {
+    "@1shotapi/client-sdk": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "viem": "^2.9.15",
+    "genlayer-js": "^1.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@vercel/node": "^3.0.24",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
