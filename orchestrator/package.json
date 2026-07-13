@@ -1,0 +1,20 @@
+{
+  "name": "smart-dca-orchestrator",
+  "version": "1.0.0",
+  "description": "Smart DCA Backend Executor",
+  "main": "dist/heartbeat.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/heartbeat.ts"
+  },
+  "dependencies": {
+    "genlayer-js": "^1.0.0-alpha.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
